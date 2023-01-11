@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DataProvider Using ITestContext ">
+   
+  
+  <test name="AcceptanceTest">
+  <classes>
+  <class name="DataProviderITestContext.Acceptance"></class>
+  
+  </classes>
+  </test>
+  
+   <test name="IntegrationTest">
+  <classes>
+  <class name="DataProviderITestContext.Integration"></class>
+  
+  </classes>
+  </test>
+  
+  
+  <test name="UnitTest">
+  <classes>
+  <class name="DataProviderITestContext.UnitTest"></class>
+  
+  </classes>
+  </test>
+
+</suite> <!-- Suite -->
